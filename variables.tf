@@ -14,13 +14,13 @@ variable "aws_ami" {
 }
 
 variable "key_name" {
-        default = "AWS_Tokyo"
+        default = "sai_training"
 }
 
 variable "aws_access_key" {
-        default = "AKIAIMQKOPESL7JMLW5A"
+        default = "AKIAJXB3HIKMEQBV6ARQ"
 }
 
 variable "aws_secret_key" {
-        default = "DNx5GKLLSQJLwxfxTHUeKpAqWNWjvh36q2NURctI"
+        default = "HWXpLCO44Fi+50P6C0zmfTOuBENy4hygoGNSg2Kj"
 }
