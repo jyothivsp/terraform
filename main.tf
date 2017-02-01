@@ -1,7 +1,7 @@
 
 
 resource "aws_vpc" "terraform" {
-     cidr_block = "10.100.0.0/31"
+     cidr_block = "10.100.0.0/16"
 }
 
 resource "aws_subnet" "public_1a" {
