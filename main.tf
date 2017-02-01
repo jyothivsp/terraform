@@ -51,7 +51,7 @@ resource "aws_instance" "web01" {
     ami = "${var.aws_ami}"
     instance_type = "${var.instance_type}"
     subnet_id = "${aws_subnet.public_1a.id}"
-    vpc_security_group_ids = "${aws_security_group.Terraform_SG.id}"
+    vpc_security_group_ids = ["${aws_security_group.Terraform_SG.id}"]
     key_name = "${var.key_name}"
     tags {
         Name = "terraform_launch"
